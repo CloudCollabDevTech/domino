@@ -1,0 +1,48 @@
+site_name: CloudCollabDevTech
+
+site_author: Rishab Sharma
+site_description: >-
+  This website contains some documentation
+
+# Repository
+repo_name: CloudCollabDevTech/domino
+repo_url: https://github.com/CloudCollabDevTech/domino
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/rishabsharma
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/rishabsharma
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rishabsharma/
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/cloudcollabdevtech"  target="_blank" rel="noopener">Rishab Sharma</a>
